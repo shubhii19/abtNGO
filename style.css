@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height:100%;
+    width: 100%;
+    background-color: #ffffff;
+    /* overflow: hidden; */
+}
+.nav{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(70, 70, 67);
+    padding: 2vb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vw;
+    position: relative;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav button{
+    padding: 10px 20px;
+    position: absolute;
+    right: 20px;
+    border-radius: 5px ;
+}
+.nav #search{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10%;
+    /* transform: translateX(1680%); */
+ 
+}
+.hero{
+    height: 90%;
+    width: 1005;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
